@@ -1,13 +1,7 @@
-class ply:
-    Undefine = "Undefine"
-    Right = "d";
-    Up = "w"
-    Left = "a"
-    Down = "s"
-    level_up_need_exp = lambda x: x**2 + x;
+from const_data import cstd
 
 class basePlayer:
-    def initBaseMsg(self,name,sex=ply.Undefine,age=ply.Undefine):
+    def initBaseMsg(self,name,sex=cstd.Undefine,age=cstd.Undefine):
         self.name = name
         self.sex  = sex
         self.age  = age
@@ -25,7 +19,7 @@ class levelSystemMixIn(basePlayer):
 
     def addExp(self,experience):
         self.experience += experience
-        while self.experience >= ply.level_up_need_exp(self.level):
+        while self.experience >= cstd.level_up_need_exp(self.level):
             self.level += 1
             self.baseHealth  += self.developableHealth
             self.baseProtect += self.developableProtect
@@ -47,13 +41,13 @@ class moveSystemMinIn(basePlayer):
     # 移动
     def walk(self,headfor):
         self.headfor = headfor
-        if headfor == ply.Right:
+        if headfor == cstd.Right:
             self.x += 1
-        elif headfor == ply.Left and self.x >= 1:
+        elif headfor == cstd.Left and self.x >= 1:
             self.x -= 1
-        elif headfor == ply.Down:
+        elif headfor == cstd.Down:
             self.y += 1
-        elif headfor == ply.Up and self.y >= 1:
+        elif headfor == cstd.Up and self.y >= 1:
             self.y -= 1
 
     # 传送
@@ -193,7 +187,7 @@ class player(levelSystemMixIn,moveSystemMinIn,backpackSystemMixIn,armorSystemMix
 if __name__ == "__main__":
     sb = player()
     sb.initBaseMsg("xpycary","male","54")
-    sb.initPlace(0,0,ply.Right,">")
+    sb.initPlace(0,0,cstd.Right,">")
     sb.initBaseAttributes(baseHealth=20,baseProtect=0,baseAttack=10,baseMagic=10)
     sb.initDevelopableAttributes(5,3,3,3)
     sb.initLevel()
