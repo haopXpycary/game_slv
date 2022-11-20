@@ -43,12 +43,19 @@ class moveSystemMinIn(basePlayer):
         self.headfor = headfor
         if headfor == cstd.Right:
             self.x += 1
-        elif headfor == cstd.Left and self.x >= 1:
+            self.pic = ">"
+
+        elif headfor == cstd.Left:
             self.x -= 1
+            self.pic = "<"
+
         elif headfor == cstd.Down:
             self.y += 1
-        elif headfor == cstd.Up and self.y >= 1:
+            self.pic = "v"
+
+        elif headfor == cstd.Up:
             self.y -= 1
+            self.pic = "^"
 
     # 传送
     def tp(self,x,y):

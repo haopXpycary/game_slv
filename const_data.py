@@ -19,3 +19,8 @@ class cstd:
     
     MAXSCRX = 120;
     MAXSCRY = 30;
+
+    Spring = "Spring"
+    Summer = "Summer"
+    Autumn = "Autumn"
+    Winter = "Winter"

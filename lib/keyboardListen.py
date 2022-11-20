@@ -17,6 +17,7 @@ class keyboardListen(threading.Thread):
     def run(self):
         while not self.stop:
             self.ch = self.getch(1)
+            # sys.stdin.flush()
 
 if __name__ == "__main__":
     import time

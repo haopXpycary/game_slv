@@ -1,10 +1,9 @@
 import os
 import sys
+import copy
+
 sys.path.append(os.path.dirname(__file__) + os.sep + '../')
 
-print(sys.path)
-
-import copy
 from const_data import cstd
 
 def cprint(x,y,other,color=cstd.White,bgcolor=cstd.Black):
@@ -61,6 +60,7 @@ class screenControl:
                 if self.screen[i][j] != self.nscreen[i][j]:
                     cprint(j+1,i+1,self.nscreen[i][j][0],self.nscreen[i][j][1],self.nscreen[i][j][2]);
         self.screen = copy.deepcopy(self.nscreen)
+        sys.stdout.flush();
 
     def get(self,x,y):
         return self.nscreen[y][x];
