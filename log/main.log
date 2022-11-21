@@ -1,44 +1,10 @@
-<main.<module>>[22-11-21 00:03:42] (Line: 22  Function: <module>     Filename: main.py) Starting... 
-<main.<module>>[22-11-21 00:03:42] wheather.timeSystem return:  [0, 0, 0, 5, 39, 37] 
-<main.<module>>[22-11-21 00:03:42] Listening keyboard. 
-<main.<module>>[22-11-21 00:03:42] Initialing palyer data. 
-<main.<module>>[22-11-21 00:03:42] Drawing framework. 
-<main.<module>>[22-11-21 00:03:42] Show player message. 
-<main.<module>>[22-11-21 00:03:42] Drawing map. 
-<main.<module>>[22-11-21 00:03:42] Main expression. 
-<main.<module>>[22-11-21 00:03:43] wheather.timeSystem return:  [0, 0, 0, 5, 39, 37] 
-<main.<module>>[22-11-21 00:03:43] wheather.timeSystem return:  [0, 0, 0, 5, 40, 37] 
-<main.<module>>[22-11-21 00:03:43] wheather.timeSystem return:  [0, 0, 0, 5, 40, 37] 
-<main.<module>>[22-11-21 00:03:44] wheather.timeSystem return:  [0, 0, 0, 5, 40, 37] 
-<main.<module>>[22-11-21 00:03:44] wheather.timeSystem return:  [0, 0, 0, 5, 40, 37] 
-<main.<module>>[22-11-21 00:03:44] wheather.timeSystem return:  [0, 0, 0, 5, 40, 37] 
-<main.<module>>[22-11-21 00:03:44] wheather.timeSystem return:  [0, 0, 0, 5, 40, 37] 
-<main.<module>>[22-11-21 00:03:44] wheather.timeSystem return:  [0, 0, 0, 5, 40, 37] 
-<main.<module>>[22-11-21 00:03:44] wheather.timeSystem return:  [0, 0, 0, 5, 40, 37] 
-<main.<module>>[22-11-21 00:03:44] wheather.timeSystem return:  [0, 0, 0, 5, 40, 37] 
-<main.<module>>[22-11-21 00:03:44] wheather.timeSystem return:  [0, 0, 0, 5, 41, 37] 
-<main.<module>>[22-11-21 00:03:44] wheather.timeSystem return:  [0, 0, 0, 5, 41, 37] 
-<main.<module>>[22-11-21 00:03:44] wheather.timeSystem return:  [0, 0, 0, 5, 41, 37] 
-<main.<module>>[22-11-21 00:03:45] wheather.timeSystem return:  [0, 0, 0, 5, 41, 37] 
-<main.<module>>[22-11-21 00:03:45] wheather.timeSystem return:  [0, 0, 0, 5, 41, 37] 
-<main.<module>>[22-11-21 00:03:45] wheather.timeSystem return:  [0, 0, 0, 5, 41, 37] 
-<main.<module>>[22-11-21 00:03:45] wheather.timeSystem return:  [0, 0, 0, 5, 41, 37] 
-<main.<module>>[22-11-21 00:03:45] wheather.timeSystem return:  [0, 0, 0, 5, 41, 37] 
-<main.<module>>[22-11-21 00:03:45] wheather.timeSystem return:  [0, 0, 0, 5, 41, 37] 
-<main.<module>>[22-11-21 00:03:45] wheather.timeSystem return:  [0, 0, 0, 5, 41, 37] 
-<main.<module>>[22-11-21 00:03:45] wheather.timeSystem return:  [0, 0, 0, 5, 41, 37] 
-<main.<module>>[22-11-21 00:03:45] wheather.timeSystem return:  [0, 0, 0, 5, 42, 37] 
-<main.<module>>[22-11-21 00:03:45] wheather.timeSystem return:  [0, 0, 0, 5, 42, 37] 
-<main.<module>>[22-11-21 00:03:46] wheather.timeSystem return:  [0, 0, 0, 5, 42, 37] 
-<main.<module>>[22-11-21 00:03:46] wheather.timeSystem return:  [0, 0, 0, 5, 42, 37] 
-<main.<module>>[22-11-21 00:03:47] wheather.timeSystem return:  [0, 0, 0, 5, 43, 37] 
-<main.<module>>[22-11-21 00:03:47] wheather.timeSystem return:  [0, 0, 0, 5, 43, 37] 
-<main.<module>>[22-11-21 00:03:47] wheather.timeSystem return:  [0, 0, 0, 5, 43, 37] 
-<main.<module>>[22-11-21 00:03:47] wheather.timeSystem return:  [0, 0, 0, 5, 43, 37] 
-<main.<module>>[22-11-21 00:03:47] wheather.timeSystem return:  [0, 0, 0, 5, 43, 37] 
-<main.<module>>[22-11-21 00:03:47] wheather.timeSystem return:  [0, 0, 0, 5, 43, 37] 
-<main.<module>>[22-11-21 00:03:47] wheather.timeSystem return:  [0, 0, 0, 5, 43, 37] 
-<main.<module>>[22-11-21 00:03:47] wheather.timeSystem return:  [0, 0, 0, 5, 43, 37] 
-<main.<module>>[22-11-21 00:03:47] wheather.timeSystem return:  [0, 0, 0, 5, 44, 37] 
-<main.<module>>[22-11-21 00:03:48] wheather.timeSystem return:  [0, 0, 0, 5, 44, 37] 
-<main.<module>>[22-11-21 00:03:48] wheather.timeSystem return:  [0, 0, 0, 5, 44, 37] 
+<main.<module>>[22-11-21 23:47:19] (Line: 24  Function: <module>     Filename: main.py) Starting... 
+<main.<module>>[22-11-21 23:47:19] wheather.timeSystem return:  [0, 0, 0, 12, 11, 10] 
+<main.<module>>[22-11-21 23:47:19] Listening keyboard. 
+<main.<module>>[22-11-21 23:47:19] Initialing palyer data. 
+<main.<module>>[22-11-21 23:47:19] Initialing material data. 
+<initThings.initial_material>[22-11-21 23:47:19] {'id': '1', 'name': 'rock', 'type': 'material', 'pic': '#', 'color': 0, 'couldPass': False, 'howGets': {'handbreak': 15}, 'willGets': {'1': 1}, 'description': '平平无奇的石头'} 
+<main.<module>>[22-11-21 23:47:19] Drawing framework. 
+<main.<module>>[22-11-21 23:47:19] Show player message. 
+<main.<module>>[22-11-21 23:47:19] Drawing map. 
+<main.<module>>[22-11-21 23:47:19] Main expression. 

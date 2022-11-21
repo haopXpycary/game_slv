@@ -4,7 +4,7 @@ from const_data import cstd
 
 def output_msg(msgoc,plr,sc,whrts):
     time_data = whrts.get_time();
-    msgoc.update("%02d-%02d-%02d" %(time_data[0],time_data[1],time_data[2]),"%s" %whrts.get_wheather())
+    msgoc.update("Canlender [%s]" %whrts.get_wheather()[:3],"%d-%d-%d" %(time_data[0],time_data[1],time_data[2]))
     msgoc.update("Time","%02d:%02d" %(time_data[3],time_data[4]));
     msgoc.update("Name",plr.name);
     msgoc.update("x,y","%d,%d" %(plr.x,plr.y));

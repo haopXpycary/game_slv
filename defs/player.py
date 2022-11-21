@@ -39,24 +39,29 @@ class moveSystemMinIn(basePlayer):
         self.pic = pic
 
     # 移动
-    def walk(self,headfor):
+    def walk(self,headfor,map):
         self.headfor = headfor
+        self._x, self._y = self.x, self.y
         if headfor == cstd.Right:
-            self.x += 1
+            self._x = self.x + 1
             self.pic = ">"
 
         elif headfor == cstd.Left:
-            self.x -= 1
+            self._x = self.x - 1
             self.pic = "<"
 
         elif headfor == cstd.Down:
-            self.y += 1
+            self._y = self.y + 1
             self.pic = "v"
 
         elif headfor == cstd.Up:
-            self.y -= 1
+            self._y = self.y - 1
             self.pic = "^"
-
+        for i in map:
+            if i.x == self._x and i.y == self._y and not i.couldPass:
+                return;
+        self.x = self._x
+        self.y = self._y
     # 传送
     def tp(self,x,y):
         self.x,self.y = x,y
