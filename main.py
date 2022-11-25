@@ -7,6 +7,7 @@ from const_data import cstd
 from lib.keyboardListen import keyboardListen
 from lib.screenControl import screenControl
 from lib.recordLog import relogger
+from lib.event import event
 
 from defs.weather import timeSystem
 
@@ -16,6 +17,7 @@ from initThings import initial_material
 from drawScreenFramework import draw_screen_framework
 from drawMap import draw_map,clear_map
 from layoutMap import layoutMap
+from handle_event import handle_event
 
 # 设置日志
 logfile = open("log/main.log","w");
@@ -85,8 +87,10 @@ while True:
             exit();
 
         sc.update(94,27,pressKey)
-
+    
+    handle_event(event,msgoc,sc,logout=logout);
     draw_map(sc,plr,lym.map);
     output_msg(msgoc,plr,sc,whrts);
     sc.show(); 
-    clear_map(sc,plr)
+    msgoc.clear_description(sc);
+    clear_map(sc,plr);

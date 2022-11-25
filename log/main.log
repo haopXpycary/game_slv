@@ -1,10 +1,10 @@
-<main.<module>>[22-11-21 23:47:19] (Line: 24  Function: <module>     Filename: main.py) Starting... 
-<main.<module>>[22-11-21 23:47:19] wheather.timeSystem return:  [0, 0, 0, 12, 11, 10] 
-<main.<module>>[22-11-21 23:47:19] Listening keyboard. 
-<main.<module>>[22-11-21 23:47:19] Initialing palyer data. 
-<main.<module>>[22-11-21 23:47:19] Initialing material data. 
-<initThings.initial_material>[22-11-21 23:47:19] {'id': '1', 'name': 'rock', 'type': 'material', 'pic': '#', 'color': 0, 'couldPass': False, 'howGets': {'handbreak': 15}, 'willGets': {'1': 1}, 'description': '平平无奇的石头'} 
-<main.<module>>[22-11-21 23:47:19] Drawing framework. 
-<main.<module>>[22-11-21 23:47:19] Show player message. 
-<main.<module>>[22-11-21 23:47:19] Drawing map. 
-<main.<module>>[22-11-21 23:47:19] Main expression. 
+<main.<module>>[22-11-26 01:26:54] (Line: 26  Function: <module>     Filename: main.py) Starting... 
+<main.<module>>[22-11-26 01:26:54] wheather.timeSystem return:  [0, 0, 0, 22, 20, 27] 
+<main.<module>>[22-11-26 01:26:54] Listening keyboard. 
+<main.<module>>[22-11-26 01:26:54] Initialing palyer data. 
+<main.<module>>[22-11-26 01:26:54] Initialing material data. 
+<initThings.initial_material>[22-11-26 01:26:54] {'id': '1', 'name': 'rock', 'type': 'material', 'pic': '#', 'color': 0, 'couldPass': False, 'howGets': {'handbreak': 15}, 'willGets': {'1': 1}, 'description': '平平无奇的石头'} 
+<main.<module>>[22-11-26 01:26:54] Drawing framework. 
+<main.<module>>[22-11-26 01:26:54] Show player message. 
+<main.<module>>[22-11-26 01:26:55] Drawing map. 
+<main.<module>>[22-11-26 01:26:55] Main expression. 

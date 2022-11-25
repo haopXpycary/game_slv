@@ -17,6 +17,7 @@ class layoutThing(baseThing):
         self.couldPass  =  def_json["couldPass"]
         self.willGet   = def_json["willGets"]
         self.event = []
+        self.description = def_json["description"]
 
     def addEvent(self,event):
         self.events.append(event)

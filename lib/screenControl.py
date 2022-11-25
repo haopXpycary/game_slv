@@ -48,10 +48,14 @@ class screenControl:
         if x > self.x or y > self.y: return;
         self.nscreen[y][x] = [pic,color,bgcolor];
     
-    def update_word(self,x,y,word,color=cstd.White,bgcolor=cstd.Black):
+    def update_word(self,x,y,word,color=cstd.White,bgcolor=cstd.Black,byte_len=1):
         i = 0;
         for j in str(word):
-            self.update(x+i,y,j,color,bgcolor)
+            if byte_len == 1:
+                self.update(x+i,y,j,color,bgcolor)
+            elif byte_len == 2:
+                self.update(x+i,y,j,color,bgcolor)
+                i += 1;
             i += 1;
 
     def show(self):

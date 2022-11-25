@@ -1,4 +1,7 @@
 import time
+import os
+
+from psutil import Process
 
 from const_data import cstd
 
@@ -15,6 +18,8 @@ def output_msg(msgoc,plr,sc,whrts):
     msgoc.update("Satisfaction",plr.satisfaction/plr.maxSatisfaction,"float");
     msgoc.update("Level",plr.level);
     msgoc.update("Exp",plr.exp/cstd.level_up_need_exp(plr.level),"float");
+    msgoc.update("Memory","%.6fM" %(Process(os.getpid()).memory_info().rss/1024/1024))
+    msgoc.update("Cpu","%f%%" %(Process(os.getpid()).cpu_percent()))
     msgoc.draw(sc);
 
 class msgOutputControl:
@@ -42,3 +47,12 @@ class msgOutputControl:
                     ("▌"*int(self.all[i][0]*10*10%10//5))
                 ));
             j += 1;
+    
+    @staticmethod
+    def output_description(sc,msg):
+        sc.update_word(93,22,msg,byte_len=2);
+
+    @staticmethod
+    def clear_description(sc):    
+        for i in range(6):
+            sc.update_word(93,22+i,"　"*13,byte_len=2)

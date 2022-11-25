@@ -1,4 +1,5 @@
 from const_data import cstd
+from lib.event import event
 
 class basePlayer:
     def initBaseMsg(self,name,sex=cstd.Undefine,age=cstd.Undefine):
@@ -59,9 +60,13 @@ class moveSystemMinIn(basePlayer):
             self.pic = "^"
         for i in map:
             if i.x == self._x and i.y == self._y and not i.couldPass:
+                event.add_event(self, "touch", i);
                 return;
+            else:
+                event.remove_event(self, "touch", "lasted")
         self.x = self._x
         self.y = self._y
+        
     # 传送
     def tp(self,x,y):
         self.x,self.y = x,y
